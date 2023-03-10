@@ -1,9 +1,11 @@
 # Error-log for StereoCamera_display.py :
 
 When using below lines in the code:
+cap1 = cv2.VideoCapture(display_camera(1))
+cap2 = cv2.VideoCapture(display_camera(2))
 
 
-Output: (One Video plays on the weston display from camera 1 only)
+#    Output: (One Video plays on the weston display from camera 1 only)
 gbm_create_device(156): Info: backend name is: msm_drm
 Started Liveview for camera 2
 gbm_create_device(156): Info: backend name is: msm_drm
@@ -13,9 +15,11 @@ Started Liveview for camera 1
 
 
 When using below lines in the code:
+cap1 = cv2.VideoCapture(1)
+cap2 = cv2.VideoCapture(2)
 
 
-Output:
+#    Output:
 
 gbm_create_device(156): Info: backend name is: msm_drm
 Started Liveview for camera 2
