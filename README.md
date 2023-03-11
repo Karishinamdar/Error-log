@@ -1,4 +1,4 @@
-# Error-log for StereoCamera_display.py :
+1. Error-log for StereoCamera_display.py :
 
 When using below lines in the code:   
 cap1 = cv2.VideoCapture(display_camera(1))   
@@ -28,4 +28,9 @@ Started Liveview for camera 1
 Unable to stop the stream: Inappropriate ioctl for device   
 VIDEOIO ERROR: V4L: index 2 is not correct!   
 Failed to open cameras for recording   
+
+2. 1. Error-log for direct_Gstpipeline.py:
+
+There is no ouput to this. Code runs smoothly without errors but doesn't show anything. 
+
 
