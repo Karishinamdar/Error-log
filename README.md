@@ -42,5 +42,11 @@ gbm_create_device(156): Info: backend name is: msm_drm
 gbm_create_device(156): Info: backend name is: msm_drm   
 
 
+### General comment on the problem:
 
+-rb5 doesn't allow 'appsink' element, it is only restricted for 'waylandsink'
+-It doesn't have v4lc drivers so cannot put direct camera id's to access 
+-Gstreamer with waylandsink is not allowing to capture the images and feed into rest of the code
+-With TCP architecture as well, it is only allowing one camera to display 
+-With different Gstreamer options as well, only one camera is playing at a time. 
 
