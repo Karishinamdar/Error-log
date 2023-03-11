@@ -31,11 +31,11 @@ Failed to open cameras for recording
 
 There is no ouput to this. Code runs smoothly without errors but doesn't show anything. 
 
-#   3Error-log for tcp_architecture.py:
+#   3.Error-log for tcp_architecture.py:
 
 Code runs for one camera at a time and saves images, but doesn't allow to acess both cameras at the same time. 
 
-#   4Error-log for gstpipeline_test.py (Video plays from camera 2 only, and no other error shows)
+# 4.Error-log for gstpipeline_test.py (Video plays from camera 2 only, and no other error shows)
 
 output on the screen:    
 gbm_create_device(156): Info: backend name is: msm_drm   
